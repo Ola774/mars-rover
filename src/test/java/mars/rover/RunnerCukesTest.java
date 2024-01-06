@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         dryRun = false,
         monochrome = true,
         features = ("src/test/resources"),
-        glue = "mars/rover/steps",
+        glue = ("mars.rover.steps"),
         plugin = {
                 "pretty",
                 "html:reports/cucumber/cucmberTestReport-html",

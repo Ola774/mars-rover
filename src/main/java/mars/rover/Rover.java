@@ -1,5 +1,7 @@
 package mars.rover;
 
+import java.util.Arrays;
+
 public class Rover {
     public static final Integer N = 1;
     public static final Integer E = 2;
@@ -16,6 +18,13 @@ public class Rover {
         this.x = x;
         this.y = y;
         this.facing = facing;
+    }
+
+    public void challenge(){
+
+        int[] array = {1,2,3,4,5,5};
+
+
     }
 
     public void printPosition() {
